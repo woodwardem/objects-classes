@@ -7,8 +7,8 @@ class Animal {
         this.age = age;
     }
     getNameAndSpecies() {
-        let an = console.log( `${this.name} is the name of a ${this.species} dog`);
-        return an;
+       console.log( `${this.name} is the name of a ${this.species} dog`);
+        
     }
 };
 
